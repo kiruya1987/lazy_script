@@ -1,8 +1,8 @@
-const Template = require('../base/template');
-const {getEnv} = require('../../lib/env');
-const {getMoment} = require('../../lib/moment');
+const Template = require('scr/jd/base/template');
+const {getEnv} = require('scr/lib/env');
+const {getMoment} = require('scr/lib/moment');
 
-const {sleep, writeFileJSON, singleRun} = require('../../lib/common');
+const {sleep, writeFileJSON, singleRun} = require('scr/lib/common');
 
 const indexUrl = 'https://carry.m.jd.com/babelDiy/Zeus/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html';
 
